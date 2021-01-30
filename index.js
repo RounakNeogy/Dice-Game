@@ -1,3 +1,4 @@
+//For the first Dice
 var n=Math.floor(Math.random()*6)+1;
 if(n==2)
   document.querySelector(".img1").setAttribute("src","images/dice2.png");
@@ -10,7 +11,7 @@ else if(n==5)
 else if(n==6)
   document.querySelector(".img1").setAttribute("src","images/dice6.png");
 
-
+//For the second dice
 var v=Math.floor(Math.random()*6)+1;
 if(v==2)
   document.querySelector(".img2").setAttribute("src","images/dice2.png");
@@ -23,6 +24,7 @@ else if(v==5)
 else if(v==6)
   document.querySelector(".img2").setAttribute("src","images/dice6.png");
 
+//For the heading to display
 if(n>v)
   document.querySelector("h1").textContent="🥳 Player 1 wins";
 else if(n<v)
