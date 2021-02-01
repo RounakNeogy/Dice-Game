@@ -12,4 +12,4 @@ This game has two die and each time you refresh the page the die will get rolled
 
 # Screenshots 📷
 
-
+![](images/sc1.png)
