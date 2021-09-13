@@ -1,6 +1,8 @@
 //For the first Dice
 var n=Math.floor(Math.random()*6)+1;
-if(n==2)
+if(n==1)
+  document.querySelector(".img1").setAttribute("src","images/dice1.png");
+else if(n==2)
   document.querySelector(".img1").setAttribute("src","images/dice2.png");
 else if(n==3)
   document.querySelector(".img1").setAttribute("src","images/dice3.png");
@@ -13,7 +15,9 @@ else if(n==6)
 
 //For the second dice
 var v=Math.floor(Math.random()*6)+1;
-if(v==2)
+if(v==1)
+  document.querySelector(".img1").setAttribute("src","images/dice1.png");
+else if(v==2)
   document.querySelector(".img2").setAttribute("src","images/dice2.png");
 else if(v==3)
   document.querySelector(".img2").setAttribute("src","images/dice3.png");
